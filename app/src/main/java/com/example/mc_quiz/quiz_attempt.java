@@ -15,10 +15,9 @@ public class quiz_attempt extends AppCompatActivity {
 
     String[] quest={"أ ہ","ع ح","غ خ","ق","ک" ,"ض" ,"ل" ,"ن" ,"ر" ,"ت د ط","ن"};
     String[] ans={"End of Throat","Middle of Throat","Start of the Throat","Base of Tongue which is near Uvula touching the mouth roof","Portion of Tongue near its base touching the roof of mouth", "One side of the tongue touching the molar teeth","Rounded tip of the tongue touching the base of the frontal 8 teeth","Rounded tip of the tongue touching the base of the frontal 6 teeth","Rounded tip of the tongue and some portion near it touching the base of the frontal 4 teeth" ,"Tip of the tongue touching the base of the front 2 teeth"};
-    //String[] option={"End of Throat","Middle of Throat","Start of the Throat","Base of Tongue which is near Uvula touching the mouth roof"};
+
+
     TextView t1,score_quiz;
-    Button next;
-    //RadioButton r1,r2,r3,r4;
     Button r1,r2,r3,r4;
     int score=0 , i=0 ;
     @Override
