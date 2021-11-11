@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/repository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rep"
+        app:layout_constraintBottom_toBottomOf="@+id/practice"
+        app:layout_constraintEnd_toStartOf="@+id/practice"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/practice"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="@+id/textView2">
+
+    </ImageView>
+    <Button
+        android:id="@+id/practice"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="28dp"
+        android:text="Practice"
+        app:layout_constraintBottom_toTopOf="@+id/score_total"
+        app:layout_constraintEnd_toStartOf="@+id/attempt" />
+
+    <Button
+        android:id="@+id/attempt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:text="Quiz_attempt"
+        app:layout_constraintBottom_toBottomOf="@+id/practice"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abdullah Khalil"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="79dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="92dp"
+        android:text="Bitf18a511"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/score_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="SCORE"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/attempt"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/repository" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
