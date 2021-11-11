@@ -19,13 +19,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="38dp"
-        android:layout_height="17dp"
-
-        android:layout_marginBottom="44dp"
+        android:layout_width="357dp"
+        android:layout_height="169dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ak_commits"
         app:layout_constraintBottom_toTopOf="@+id/repository"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/textView2">
 
     </ImageView>
@@ -56,17 +56,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Abdullah Khalil"
+        android:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.936" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="79dp"
         android:layout_height="18dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="20dp"
         android:text="Bitf18a511"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/textView"
